@@ -297,7 +297,7 @@ A loss of control cascades across compute, networking, storage, and power—dest
 
 **Control = single point of economic fragility.**
 
-📊 [View Dashboard](https://public.tableau.com/app/profile/tagm/vizzes) | 📁 [Repository](#)
+📊 [View Dashboard](https://tinyurl.com/9y25pv3u) | 📁 [Repository](#)
 
 ---
 
