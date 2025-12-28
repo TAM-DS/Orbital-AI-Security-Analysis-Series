@@ -1,8 +1,8 @@
-# 🛰️ Orbital AI Security Analysis Series
+# 🛰️ Orbital AI Infrastructure & Security Analysis Series
 
-**Comprehensive framework analyzing AI security from terrestrial to orbital deployments**
+**Complete framework analyzing AI transformation from terrestrial to orbital deployment**
 
-*A systems-level analysis of how AI threat surfaces, control models, and attack vectors transform when compute leaves Earth.*
+*A systems-level analysis spanning physics, economics, security, and autonomous control from Earth to orbit.*
 
 [![View Dashboards](https://img.shields.io/badge/View-Live%20Dashboards-blue?style=for-the-badge)](https://public.tableau.com/app/profile/tagm/vizzes)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
@@ -26,26 +26,68 @@
 
 ## 🎯 Overview
 
-This series analyzes AI security across four critical dimensions:
+This series provides a complete investment and engineering thesis for AI infrastructure transformation from Earth to orbit, analyzing five critical dimensions:
 
-1. **Terrestrial AI Security** (OWASP LLM + RAG Attack Surfaces)
-2. **Orbital Deployment Reality** (2030 Threat Model)
-3. **Control System Constraints** (Physics Over Humans)
-4. **Complete Framework** (Integrated threat modeling)
+1. **Physics & Economics** (TX-1 Orbital - Why compute goes to orbit)
+2. **Terrestrial AI Security** (OWASP LLM + RAG - Foundation threat models)
+3. **Orbital Threat Surface** (2030 Threat Model - How security changes)
+4. **Control Constraints** (Physics Over Humans - Why autonomy is required)
+5. **Economic Value Capture** (Orbital Economics - Who wins)
 
 **Core Thesis:**
 
-AI security fundamentally changes when systems move from Earth (human-in-the-loop possible) to orbit (human-in-the-loop physically impossible).
+By 2030, 40%+ of exascale AI training will operate from LEO/GEO. Traditional security models assume human intervention within decision windows. Orbital physics makes that impossible. Autonomous control becomes mandatory, not optional.
 
-**Why This Matters:**
+**The question isn't "will this happen?"**
 
-By 2030, 40%+ of exascale AI training will operate from LEO/GEO. Traditional security models assume human intervention within decision windows. Orbital physics breaks that assumption.
+**The question is: "Who owns the orbital economy?"**
+
+**Answer:** Whoever guarantees continuity through autonomous control.
 
 ---
 
 ## 🚀 The Series
 
-### 1. 🔐 OWASP LLM Attack Surface (2025 Edition)
+### 1. 🛰️ TX-1 Orbital Prototype: Physics & Economics of Compute in Space
+
+**Why orbital compute is inevitable**
+
+**Key Metrics:**
+- Solar efficiency: 8× terrestrial (60MW sustained, free radiative cooling)
+- Latency analysis: 2.7ms (LEO) to 240ms (GEO)
+- Autonomy requirements: 63% local decision-making at high altitude
+- Carbon offset: -0.9 tCO₂e per kWh index
+
+**Critical Findings:**
+
+**Physics advantages:**
+- Free radiative cooling via Stefan-Boltzmann (σT⁴)
+- 24/7 solar input (no atmospheric attenuation)
+- Zero atmospheric drag
+- No cooling infrastructure costs
+
+**Economic tipping point:**
+```
+Terrestrial: $0.08-0.12/kWh + cooling + real estate
+Orbital: $0.02-0.04/kWh (solar) + $0 cooling + launch amortized
+
+When launch < $50/kg: Orbital becomes CHEAPER for high-density AI training
+```
+
+**Timeline:**
+- 2025-2027: Prototypes (Starcloud H100 in orbit proves concept)
+- 2028-2030: Commercial early adopters
+- 2031-2033: Inflection point (5-10% of AI training)
+- 2034-2037: Rapid shift (25-40% of exascale workloads)
+- 2038+: Orbital dominance for large-scale training
+
+**Insight:** Orbital compute isn't sci-fi. It's economics. When physics provides free cooling and constant solar, terrestrial data centers can't compete for power-hungry training.
+
+📊 [View Dashboard](https://public.tableau.com/app/profile/tagm/vizzes) | 📁 [Repository](https://github.com/TAM-DS/TX-1-Orbital-Prototype)
+
+---
+
+### 2. 🔐 OWASP LLM Attack Surface (2025 Edition)
 
 **Quantified risk analysis across the LLM stack**
 
@@ -67,13 +109,15 @@ By 2030, 40%+ of exascale AI training will operate from LEO/GEO. Traditional sec
 - Single point of failure for RAG systems
 - Propagates compromise downstream
 
-**Insight:** Supply chain risk is underestimated. One compromised dependency affects EVERY deployment.
+**Insight:** Supply chain risk is systematically underestimated. Prompt injection affects ONE deployment. Supply chain compromise affects EVERY deployment using that component.
+
+Not sexy. But systemic.
 
 📊 [View Dashboard](https://public.tableau.com/app/profile/tagm/vizzes) | 📁 [Repository](https://github.com/TAM-DS/OWASP-LLM-Attack-Surface-2025-Edition-)
 
 ---
 
-### 2. 🎯 RAG Attack Surface Propagation Map (2025 Edition)
+### 3. 🎯 RAG Attack Surface Propagation Map (2025 Edition)
 
 **Cascading failure analysis across RAG pipelines**
 
@@ -100,13 +144,13 @@ Retrieval manipulated (0.80) →
 LLM outputs toxic (0.75)
 ```
 
-**Insight:** RAG orchestrators (0.7620 risk) are invisible to most monitoring but silently amplify attacks.
+**Insight:** RAG orchestrators (0.7620 risk) are invisible to most monitoring but silently amplify attacks. Most teams secure the LLM. The vulnerability is in the retrieval layer.
 
 📊 [View Dashboard](https://public.tableau.com/app/profile/tagm/vizzes) | 📁 [Repository](https://github.com/TAM-DS/RAG-Attack-Surface-Propagation-Map-2025-Edition-)
 
 ---
 
-### 3. 🛰️ Orbital AI Security 2030: Threat Model
+### 4. 🛰️ Orbital AI Security 2030: Threat Model
 
 **When humans leave the loop, AI systems fail differently**
 
@@ -140,7 +184,7 @@ Traditional security assumes human-in-the-loop. Orbital physics makes that impos
 
 ---
 
-### 4. ⚡ Physics Over Humans: The 2030 Control Shift
+### 5. ⚡ Physics Over Humans: The 2030 Control Shift
 
 **Quantifying when security models fail under latency constraints**
 
@@ -171,9 +215,9 @@ Traditional security assumes human-in-the-loop. Orbital physics makes that impos
 | Unauthorized Actions | 10.7 | 9.8 | 9.0 | 9.4 |
 
 **Overall Risk Averages:**
-- Human-in-the-Loop: **10.9** (highest)
-- Incident Response: **9.6**
-- Zero Trust: **8.7**
+- Human-in-the-Loop: **10.9** (highest - fails across all vectors)
+- Incident Response: **9.6** (unstable)
+- Zero Trust: **8.7** (stressed but surviving)
 - Autonomous Control: **9.1** (only latency-native model)
 
 **Insight:** Human-in-the-Loop consistently performs WORST across every attack vector. At >4.5s latency, human decision cycles are no longer viable for security enforcement.
@@ -188,9 +232,99 @@ It fails because reality eventually enforces its constraints.
 
 ---
 
+### 6. 💰 Orbital Economics: Markets Only Exist After Continuity is Guaranteed
+
+**Constraint-driven economics of autonomous orbital systems**
+
+**Key Metrics:**
+- Orbital Value Stack (who captures value at each layer)
+- Risk Concentration Analysis (launch vs control risk)
+- Value Capture vs Failure Absorption (payoff diagram)
+
+**Critical Findings:**
+
+**The Orbital Value Stack:**
+
+| Layer | Value Capture | Risk Profile |
+|-------|--------------|-------------|
+| **Autonomous Control** | 92 | Infinite (every decision, forever) |
+| Networking/Downlink | 60 | Moderate (visible but commoditizing) |
+| Compute | 55 | Depreciating asset |
+| Storage | 48 | Commodity |
+| Power/Energy | 42 | Free input (after capital cost) |
+| Launch | 35 | Finite (high upfront, then done) |
+
+**The Inversion:**
+```
+Traditional Cloud: Compute = valuable, control = commodity
+Orbital Cloud: Control = valuable, compute = commodity
+```
+
+**As you move UP the orbital stack:**
+- Capital intensity DECREASES
+- Risk concentration INCREASES
+- Value capture INCREASES
+
+**Launch Risk vs. Control Risk:**
+
+**Launch:**
+- High upfront (rocket could explode)
+- But FINITE (once in orbit, done)
+- Risk score: 55
+
+**Control:**
+- Lower per-decision
+- But INFINITE (every decision, forever)
+- Risk score: 92
+
+**Control risk compounds. Launch risk doesn't.**
+
+**Core Thesis:** Markets only exist after continuity is guaranteed.
+
+**Insight:** 
+
+Whoever can GUARANTEE continuity despite:
+- 240ms latency
+- Disconnection events
+- Physical inaccessibility
+- Adversarial attacks
+
+**Owns the orbital economy.**
+
+A loss of control cascades across compute, networking, storage, and power—destroying economic value faster than any physical component failure could.
+
+**In orbit, control risk is existential risk.**
+
+**Control = single point of economic fragility.**
+
+📊 [View Dashboard](https://public.tableau.com/app/profile/tagm/vizzes) | 📁 [Repository](#)
+
+---
+
 ## 🔥 Key Findings Across Series
 
-### **Finding 1: Supply Chain Risk is Systematically Underestimated**
+### **Finding 1: Orbital Compute Is Inevitable (TX-1 Analysis)**
+
+**Timeline:**
+- 2031-2033: Inflection point (5-10% of AI training)
+- 2034-2037: Rapid shift (25-40% of exascale workloads)
+- 2038+: Orbital dominance
+
+**Why:**
+- Solar: 8× terrestrial efficiency, 24/7 availability
+- Cooling: Free radiative (σT⁴), zero infrastructure cost
+- Economics: When launch < $50/kg, orbital < terrestrial cost
+
+**What happens to terrestrial data centers:**
+- New construction slows 15-20% (2032-2035)
+- Facilities pivot: inference + edge + compliance workloads
+- Ground control becomes new value (data staging, mission control)
+
+**Texas doesn't die. It pivots.**
+
+---
+
+### **Finding 2: Supply Chain Risk is Systematically Underestimated (OWASP)**
 
 **From OWASP Analysis:**
 - Supply Chain: 0.5860 systemic impact
@@ -200,11 +334,16 @@ It fails because reality eventually enforces its constraints.
 - Prompt injection affects ONE deployment
 - Supply chain compromise affects EVERY deployment
 
+**Real-world parallel:**
+- xz backdoor (2024): Almost shipped in every Linux distro
+- If successful: SSH access to millions of servers
+- AI equivalent: Poisoned model weights, compromised frameworks
+
 **Not sexy. But systemic.**
 
 ---
 
-### **Finding 2: RAG Systems Have a Critical Weak Link**
+### **Finding 3: RAG Systems Have a Critical Weak Link (RAG Propagation)**
 
 **From RAG Propagation Analysis:**
 - Embedding Model + Vector Database = 0.79 combined vulnerability
@@ -221,9 +360,11 @@ Outputs toxic (0.75)
 
 **Insight:** Most teams secure the LLM. The vulnerability is in the retrieval layer.
 
+RAG orchestrators (0.7620) are invisible to monitoring but silently amplify attacks.
+
 ---
 
-### **Finding 3: Orbital Systems Require Autonomous Security**
+### **Finding 4: Orbital Systems Require Autonomous Security (2030 Threat)**
 
 **From 2030 Threat Model:**
 - Autonomy requirement: 4.7× higher in orbit vs Earth
@@ -240,12 +381,12 @@ Outputs toxic (0.75)
 
 ---
 
-### **Finding 4: Human-in-the-Loop Fails Under Latency**
+### **Finding 5: Human-in-the-Loop Fails Under Latency (Physics Over Humans)**
 
 **From Physics Over Humans Analysis:**
 
 **Monte Carlo Simulation (100k runs):**
-- Human-in-the-Loop: 10.9 average risk (worst)
+- Human-in-the-Loop: 10.9 average risk (worst across ALL vectors)
 - Autonomous Control: 9.1 average risk (only viable)
 
 **Control strain:**
@@ -268,21 +409,31 @@ When response > latency:
 
 ---
 
-### **Finding 5: The Real Shift is 2032-2037**
+### **Finding 6: Value Concentrates at Autonomous Control Layer (Orbital Economics)**
 
-**Timeline:**
-- 2025-2027: LEO prototypes (experimental)
-- 2028-2030: Commercial early adopters (niche workloads)
-- 2031-2033: **Inflection point (5-10% AI training in orbit)**
-- 2034-2037: **Rapid shift (25-40% exascale workloads)**
-- 2038+: Orbital dominance for large-scale training
+**From Orbital Economics Analysis:**
+- Autonomous Control: 92 value capture (dominates)
+- Launch: 35 value capture (commoditizes)
 
-**What happens to terrestrial data centers:**
-- New construction slows 15-20% (2032-2035)
-- Facilities pivot: inference + edge + compliance workloads
-- Ground control becomes new value (data staging, mission control)
+**The inversion:**
+```
+Traditional cloud: Compute valuable, control commodity
+Orbital cloud: Control valuable, compute commodity
+```
 
-**Texas doesn't die. It pivots.**
+**Why?**
+- Launch risk = finite (once in orbit, done)
+- Control risk = infinite (every decision, forever)
+- Control failures cascade across ALL infrastructure layers
+- Economic value destroyed faster by control loss than hardware failure
+
+**The thesis:**
+
+Markets only exist after continuity is guaranteed.
+
+Whoever can guarantee continuity through autonomous control = owns the orbital economy.
+
+**This isn't just technology analysis. It's investment thesis.**
 
 ---
 
@@ -309,7 +460,7 @@ Priority = (Risk_Score × Component_Criticality) / Mitigation_Effort
 
 ### **Control Strain Analysis**
 
-**Physics Over Humans:**
+**Physics Over Humans & 2030 Threat Model:**
 ```
 Control_Strain = (Latency_Constraint / Model_Tolerance) × Environment_Factor
 
@@ -345,6 +496,22 @@ Weak_Link_Index = min(Component_A, Component_B) where coupling > 0.7
 
 ---
 
+### **Economic Value Modeling**
+
+**Orbital Economics:**
+```
+Value_Capture = (Control_Authority × Risk_Absorption) / Capital_Intensity
+
+Risk_Concentration = Σ(Downstream_Failures) × Cascade_Factor
+
+Launch_Risk = High × Finite
+Control_Risk = Moderate × Infinite
+
+Control_Risk > Launch_Risk (over time)
+```
+
+---
+
 ### **Monte Carlo Simulation**
 
 **Physics Over Humans:**
@@ -358,6 +525,12 @@ Weak_Link_Index = min(Component_A, Component_B) where coupling > 0.7
 ## 📁 Datasets
 
 All datasets used in this analysis are available in each project repository:
+
+### **TX-1 Orbital Prototype**
+- `orbital_latency_analysis.csv` - LEO/GEO latency measurements
+- `solar_efficiency_calculations.csv` - Power generation vs terrestrial
+- `autonomy_requirements.csv` - Decision-making thresholds by altitude
+- `economic_tipping_points.csv` - Cost comparisons terrestrial vs orbital
 
 ### **OWASP LLM Attack Surface**
 - `owasp_llm_risk_matrix.csv` - Risk scores by threat vector
@@ -382,6 +555,12 @@ All datasets used in this analysis are available in each project repository:
 - `monte_carlo_risk_impacts.csv` - 100k simulation results
 - `latency_tolerance_thresholds.csv` - Breaking points by model
 - `attack_vector_simulation_results.csv` - Risk by failure mode
+
+### **Orbital Economics**
+- `orbital_value_stack.csv` - Value capture by layer
+- `risk_concentration_analysis.csv` - Launch vs control risk
+- `value_capture_vs_failure_absorption.csv` - Payoff matrix
+- `economic_timeline_projections.csv` - Market evolution 2025-2040
 
 **Data Format:** CSV, ready for analysis in Python/R/Excel
 
@@ -409,6 +588,12 @@ All datasets used in this analysis are available in each project repository:
 - Plan redundancy strategies (N+2 minimum)
 - Autonomous control frameworks
 
+### **For VCs & Investors:**
+- Understand economic value concentration (who wins in orbital compute)
+- Evaluate orbital infrastructure startups (control layer vs hardware layer)
+- Assess market timing (2030-2035 inflection point)
+- Investment thesis: Autonomous control = 92 value capture
+
 ### **For AI Safety Researchers:**
 - Study failure modes when human oversight is physically impossible
 - Design pre-authorized decision frameworks
@@ -426,6 +611,7 @@ All datasets used in this analysis are available in each project repository:
 - Quantify AI security investment priorities
 - Understand future infrastructure shifts (terrestrial → orbital)
 - Build teams for autonomous AI operations
+- Evaluate "build vs buy" for orbital compute (2030-2035 timeframe)
 
 ---
 
@@ -436,11 +622,13 @@ All datasets used in this analysis are available in each project repository:
 - Monte Carlo simulation framework
 - Statistical modeling (risk quantification)
 - Physics-based constraint modeling
+- Economic value modeling
 
 **Visualization:**
 - Tableau Public (interactive dashboards)
 - Matplotlib/Seaborn (exploratory analysis)
 - Custom risk heatmaps
+- Bubble charts (value capture vs failure absorption)
 
 **Data Engineering:**
 - CSV pipelines (reproducibility)
@@ -452,6 +640,7 @@ All datasets used in this analysis are available in each project repository:
 - MITRE ATT&CK for ML
 - CAP theorem (distributed systems)
 - Control theory (latency constraints)
+- Economic value chain analysis
 
 ---
 
@@ -461,7 +650,7 @@ All datasets used in this analysis are available in each project repository:
 
 **Texas Energy & Infrastructure:**
 - 🔋 [Texas Energy Data Pulse](https://github.com/TAM-DS/Texas-Energy-Data-Pulse) - 20 dashboards analyzing AI infrastructure demands
-- 🛰️ [TX-1 Orbital Prototype](https://github.com/TAM-DS/TX-1-Orbital-Prototype) - Physics and economics of compute in space
+- 🛰️ [TX-1 Orbital Prototype](https://github.com/TAM-DS/TX-1-Orbital-Prototype) - Physics and economics of compute in space (this series)
 
 **AI Security Foundations:**
 - 🔐 OWASP LLM Attack Surface (this series)
@@ -470,6 +659,7 @@ All datasets used in this analysis are available in each project repository:
 **Orbital Security Framework:**
 - 🛰️ Orbital AI Security 2030 (this series)
 - ⚡ Physics Over Humans (this series)
+- 💰 Orbital Economics (this series)
 
 **Production MLOps:**
 - 🤖 MLOps Maturity Framework 2026 (coming soon)
@@ -477,7 +667,7 @@ All datasets used in this analysis are available in each project repository:
 
 **Together, these projects form a complete framework:**
 
-*Earth infrastructure → Orbital compute → Security transformation → Autonomous operations*
+*Earth infrastructure → Orbital compute → Security transformation → Autonomous operations → Economic value capture*
 
 ---
 
@@ -500,13 +690,13 @@ Staff MLOps Engineer | Multi-Cloud + Linux Infrastructure Architect | Austin, TX
 
 If you reference this work:
 ```bibtex
-@misc{manning2025orbitalaisecurity,
+@misc{manning2025orbitalaiseries,
   author = {Manning, Tracy},
-  title = {Orbital AI Security Analysis Series: From Terrestrial Threats to Autonomous Control in Space},
+  title = {Orbital AI Infrastructure \& Security Analysis Series: Complete Framework from Terrestrial to Orbital Deployment},
   year = {2025},
   publisher = {GitHub},
   howpublished = {\url{https://github.com/TAM-DS/Orbital-AI-Security-Series}},
-  note = {Comprehensive framework analyzing AI security transformation from Earth to orbit, including OWASP LLM attack surfaces, RAG propagation modeling, 2030 threat analysis, and physics-constrained control systems}
+  note = {Comprehensive framework analyzing AI infrastructure transformation from Earth to orbit, including physics, economics, security threat models, control constraints, and economic value capture. Includes TX-1 Orbital Prototype, OWASP LLM attack surfaces, RAG propagation modeling, 2030 threat analysis, physics-constrained control systems, and orbital economics analysis.}
 }
 ```
 
@@ -526,6 +716,8 @@ See individual project repositories for specific licensing details.
 - Space systems engineers reviewing orbital latency constraints
 - AI safety community exploring autonomous decision frameworks
 - MLOps practitioners sharing production failure modes
+- Economics researchers analyzing value chain transformations
+- VCs and investors providing market validation
 - Open source community enabling reproducible research
 
 ---
@@ -540,13 +732,24 @@ Orbital physics makes that assumption obsolete.
 
 **The question isn't "should we build autonomous AI security?"**
 
-**The question is: "Are we designing for physics, or designing for failure?"**
+**The question is: "Who owns the orbital economy?"**
 
-This series provides the framework to answer that question.
+**Answer:** Whoever guarantees continuity through autonomous control.
+
+Markets only exist after continuity is guaranteed.
+
+This series provides the complete framework:
+- **WHY** orbital compute happens (physics + economics)
+- **HOW** security transforms (threat models + control constraints)
+- **WHO WINS** (autonomous control = 92 value capture)
+
+Not just analysis. Investment thesis.
 
 ---
 
 *"Architecture doesn't fail because engineers don't try hard enough. It fails because reality eventually enforces its constraints."*
+
+*"Markets only exist after continuity is guaranteed."*
 
 ---
 
@@ -556,4 +759,15 @@ This series provides the framework to answer that question.
 
 **💬 Questions? Open an issue or connect on LinkedIn!**
 
-</readme>
+---
+
+**📊 Complete Dashboard Series:**
+
+1. TX-1 Orbital Prototype (Physics & Economics)
+2. OWASP LLM Attack Surface (Terrestrial Security)
+3. RAG Propagation Map (Cascading Failures)
+4. Orbital AI Security 2030 (Threat Surface Shift)
+5. Physics Over Humans (Control Constraints)
+6. Orbital Economics (Value Capture)
+
+**= Six elite dashboards. One complete thesis. Earth → Orbit → Security → Economics.**
