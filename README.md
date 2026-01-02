@@ -83,8 +83,7 @@ When launch < $50/kg: Orbital becomes CHEAPER for high-density AI training
 
 **Insight:** Orbital compute isn't sci-fi. It's economics. When physics provides free cooling and constant solar, terrestrial data centers can't compete for power-hungry training.
 
-📊 [View Dashboard](https://public.tableau.com/app/profile/tagm/vizzes) | 📁 [Repository](https://github.com/TAM-DS/TX-1-Orbital-Prototype)
-
+📊 [View Dashboard](https://public.tableau.com/app/profile/tagm/vizzes) | 
 ---
 
 ### 2. 🔐 OWASP LLM Attack Surface (2025 Edition)
@@ -113,7 +112,7 @@ When launch < $50/kg: Orbital becomes CHEAPER for high-density AI training
 
 Not sexy. But systemic.
 
-📊 [View Dashboard](https://public.tableau.com/app/profile/tagm/vizzes) | 📁 [Repository](https://github.com/TAM-DS/OWASP-LLM-Attack-Surface-2025-Edition-)
+📊 [View Dashboard](https://public.tableau.com/app/profile/tagm/vizzes) | 
 
 ---
 
@@ -146,7 +145,7 @@ LLM outputs toxic (0.75)
 
 **Insight:** RAG orchestrators (0.7620 risk) are invisible to most monitoring but silently amplify attacks. Most teams secure the LLM. The vulnerability is in the retrieval layer.
 
-📊 [View Dashboard](https://public.tableau.com/app/profile/tagm/vizzes) | 📁 [Repository](https://github.com/TAM-DS/RAG-Attack-Surface-Propagation-Map-2025-Edition-)
+📊 [View Dashboard](https://public.tableau.com/app/profile/tagm/vizzes) |
 
 ---
 
@@ -180,7 +179,7 @@ LLM outputs toxic (0.75)
 
 Traditional security assumes human-in-the-loop. Orbital physics makes that impossible.
 
-📊 [View Dashboard](https://public.tableau.com/app/profile/tagm/vizzes) | 📁 [Repository](#)
+📊 [View Dashboard](https://public.tableau.com/app/profile/tagm/vizzes) | 
 
 ---
 
@@ -228,7 +227,7 @@ Architecture doesn't fail because engineers don't try hard enough.
 
 It fails because reality eventually enforces its constraints.
 
-📊 [View Dashboard](https://public.tableau.com/app/profile/tagm/vizzes) | 📁 [Repository](#)
+📊 [View Dashboard](https://public.tableau.com/app/profile/tagm/vizzes) | 
 
 ---
 
@@ -297,7 +296,7 @@ A loss of control cascades across compute, networking, storage, and power—dest
 
 **Control = single point of economic fragility.**
 
-📊 [View Dashboard](https://tinyurl.com/9y25pv3u) | 📁 [Repository](#)
+📊 [View Dashboard](https://tinyurl.com/9y25pv3u) | 
 
 ---
 
@@ -676,7 +675,6 @@ All datasets used in this analysis are available in each project repository:
 **Tracy Manning**  
 Staff MLOps Engineer | Multi-Cloud + Linux Infrastructure Architect | Austin, TX
 
-🌐 [Portfolio](https://TAM-DS.github.io)  
 💼 [LinkedIn](https://linkedin.com/in/tracy-manning-full-stack-ai)  
 🐦 [X/Twitter](https://twitter.com/TAGM2025)  
 📊 [Tableau Public](https://public.tableau.com/app/profile/tagm/vizzes)  
